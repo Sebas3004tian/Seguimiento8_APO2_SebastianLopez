@@ -34,6 +34,7 @@ public class Main {
 			int respuesta=sc.nextInt();
 			
 			if(respuesta==1) {
+				data=new OlimpicoData();
 				int numPaises=sc.nextInt();
 				String pais="";
 				for(int i=0;i<numPaises;i++) {
